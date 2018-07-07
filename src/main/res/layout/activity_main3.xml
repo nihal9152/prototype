@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="#F3E5F5">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            tools:ignore="UselessParent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:src="@drawable/donate1"
+                    android:contentDescription="@string/todo" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="16dp"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
+                    android:text="@string/your_donations_are_critical_in_supporting_this_catalytic_movement_to_promote_inspire_and_advance_more_women_leaders_in_technology"
+                    android:layout_marginBottom="10sp"
+                    android:background="#2196F3"
+                    tools:ignore="RtlSymmetry" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#F57C00">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="@string/donate_with_the_credit_card"
+                        android:textAllCaps="true"
+                        android:textSize="24sp"
+                        android:paddingStart="16dp"
+                        android:paddingBottom="16dp"
+                        android:paddingTop="16sp"
+                        tools:ignore="RtlSymmetry" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/donation_amount"
+                        android:textSize="22sp"
+                        android:layout_margin="16dp"
+                        android:textColor="@android:color/black"
+                        android:id="@+id/qwer1"
+                        android:inputType="" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#D32F2F"
+                        android:layout_margin="10dp">
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:text="@string/donate"
+                            android:textSize="20sp"
+                            android:id="@+id/qwer"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#E1BEE7"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/home"
+            android:id="@+id/aa1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/todo"
+            tools:ignore="NestedWeights" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/search"
+            android:id="@+id/aa2"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/todo" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/donate"
+            android:id="@+id/aa3"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/todo" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/about"
+            android:id="@+id/aa4"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/todo" />
+    </LinearLayout>
+</LinearLayout>

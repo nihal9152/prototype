@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Prototype</string>
+    <string name="splash_image">splash_image</string>
+    <string name="format">Format</string>
+    <string name="level">Level</string>
+    <string name="topic">Topic</string>
+    <string name="submit">Submit</string>
+    <string name="todo">TODO</string>
+    <string name="your_donations_are_critical_in_supporting_this_catalytic_movement_to_promote_inspire_and_advance_more_women_leaders_in_technology">Your donations are critical in supporting this catalytic movement to promote, inspire, and advance more women leaders in technology.</string>
+    <string name="donate_with_the_credit_card">donate with the credit card</string>
+    <string name="donation_amount">Donation Amount</string>
+    <string name="donate">DONATE</string>
+    <string name="prototype">Prototype</string>
+    <string name="version_1_0_1">Version 1.0.1</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="mujer_is_a_non_profit_platform_committed_to_teaching_female_students_how_to_code_we_aim_to_hitch_women_s_economic_and_social_advancement_on_to_tech_industry">Mujer is a non-profit platform committed to teaching female students how to code. We aim to hitch women\'s economic and social advancement on to tech industry.</string>
+    <string name="we_are_going_to_empower_girls_online_without_being_worried_of_physical_and_geographical_distances">We are going to empower girls online without being worried of physical and geographical distances.</string>
+    <string name="women_are_capable_of_adding_value_to_their_communities_far_beyond_simple_housework">Women are capable of adding value to their communities far beyond simple housework.</string>
+    <string name="change">Change</string>
+    <string name="empowering_women_financially_and_socially_and_excel_them_in_tcechnology_careers">Empowering women financially and socially and excel them in tcechnology careers.</string>
+    <string name="empowerment">Empowerment</string>
+    <string name="we_provide_technology_education_and_outreach_to_provide_women_equal_ease_of_access_to_resources_and_opportunities">We provide technology education and outreach to provide women equal ease of access to resources and opportunities.</string>
+    <string name="equality">Equality</string>
+    <string name="our_objectives">Our Objectives</string>
+    <string name="we_build_skills_and_infrastructure_for_women_to_compete_in_the_global_tech_market">We build skills and infrastructure for women to compete in the global tech market.</string>
+    <string name="our_vision">Our Vision</string>
+    <string-array name="format">
+            <item>Tutorial</item>
+            <item>Reference</item>
+            <item>Book</item>
+            <item>School</item>
+            <item>Training</item>
+        </string-array>
+        <string-array name="level">
+            <item>Beginner</item>
+            <item>Intermediate</item>
+            <item>Advanced</item>
+        </string-array>
+        <string-array name="topic">
+            <item>HTML</item>
+            <item>CSS</item>
+            <item>Git</item>
+            <item>Python</item>
+            <item>JavaScript</item>
+            <item>Ruby</item>
+            <item>PHP</item>
+            <item>JAVA</item>
+            <item>SQL</item>
+        </string-array>
+
+</resources>
